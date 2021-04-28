@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+$darkCyan: hsl(185, 75%, 39%);
+$darkBlue: hsl(229, 23%, 23%);
+$darkGrayBlue: hsl(227, 10%, 46%);
+$darkGray: hsl(0, 0%, 59%);
+$priFontSize: 18px;
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+h2, h3{
+    font-size: $priFontSize;
+    color:$darkBlue;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: $darkCyan;
+    color:$darkGrayBlue;
+    background:
+        url(/images/bg-pattern-top.svg) -800px -500px no-repeat,
+        url(/images/bg-pattern-bottom.svg) 50px 280px no-repeat,
+        $darkCyan;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin:10em auto 1em auto;
+    width:320px;
+    height:370px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+}
+.top-container img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    object-fit: cover;
+}
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:-65px;
+
+}
+.middle-container>p{
+    font-size: 12px;
+}
+.middle-container img{
+    border-radius: 50%;
+    border: 5px solid rgb(243, 243, 243);
+    margin-bottom: 1.3em;
+    
+}
+.bottom-container{
+    height:20%;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 26px;
+    border-top: 1px solid rgb(223, 223, 223);
+    position: relative;
+    top:-25px;
+}
+.stats{
+    padding:1em 0 1em 0;
+    p{
+        font-size: 10px;
+    }
+}
+.name{
+    display: flex;
+    align-items: baseline;
+    
+    h2{
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width:700px) {
+    body{
+        background:
+        url(/images/bg-pattern-top.svg) -700px -500px no-repeat,
+        url(/images/bg-pattern-bottom.svg) 50px 280px no-repeat,
+        $darkCyan;
+    }
+}
+@media (min-width:850px) {
+    body{
+        background:
+        url(/images/bg-pattern-top.svg) -600px -500px no-repeat,
+        url(/images/bg-pattern-bottom.svg) 400px 340px no-repeat,
+        $darkCyan;
+    }
+}
+@media (min-width:1100px) {
+    body{
+        background:
+        url(/images/bg-pattern-top.svg) -300px -500px no-repeat,
+        url(/images/bg-pattern-bottom.svg) 700px 340px no-repeat,
+        $darkCyan;
+    }
+}
