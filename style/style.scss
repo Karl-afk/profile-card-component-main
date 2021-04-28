@@ -19,8 +19,8 @@ body{
     background-color: $darkCyan;
     color:$darkGrayBlue;
     background:
-        url(/images/bg-pattern-top.svg) -800px -500px no-repeat,
-        url(/images/bg-pattern-bottom.svg) 50px 280px no-repeat,
+        url(images/bg-pattern-top.svg) -800px -500px no-repeat,
+        url(images/bg-pattern-bottom.svg) 50px 280px no-repeat,
         $darkCyan;
 }
 .card{
@@ -85,24 +85,24 @@ body{
 @media (min-width:700px) {
     body{
         background:
-        url(/images/bg-pattern-top.svg) -700px -500px no-repeat,
-        url(/images/bg-pattern-bottom.svg) 50px 280px no-repeat,
+        url(images/bg-pattern-top.svg) -700px -500px no-repeat,
+        url(images/bg-pattern-bottom.svg) 50px 280px no-repeat,
         $darkCyan;
     }
 }
 @media (min-width:850px) {
     body{
         background:
-        url(/images/bg-pattern-top.svg) -600px -500px no-repeat,
-        url(/images/bg-pattern-bottom.svg) 400px 340px no-repeat,
+        url(images/bg-pattern-top.svg) -600px -500px no-repeat,
+        url(images/bg-pattern-bottom.svg) 400px 340px no-repeat,
         $darkCyan;
     }
 }
 @media (min-width:1100px) {
     body{
         background:
-        url(/images/bg-pattern-top.svg) -300px -500px no-repeat,
-        url(/images/bg-pattern-bottom.svg) 700px 340px no-repeat,
+        url(images/bg-pattern-top.svg) -300px -500px no-repeat,
+        url(images/bg-pattern-bottom.svg) 700px 340px no-repeat,
         $darkCyan;
     }
 }
